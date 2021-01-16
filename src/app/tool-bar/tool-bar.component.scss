@@ -1,0 +1,36 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+.header {
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    z-index: 11;
+   
+}
+.header h1 {
+    font-family: "Anton", sans-serif;
+    font-size: x-large;
+}
+.header p {
+    margin: 0;
+}
+
+mat-nav-list.list-horizontal {
+    padding: 0;
+    .mat-list-item {
+        display: inline-block;
+        height: auto;
+        width: auto;
+    }
+}
+.mat-nav-list a.active {
+    color: blue;
+    background-color: white;
+}
+.mat-nav-list :hover{
+    background-color: white;
+}
+.mat-nav-list :active{
+    background-color: white;
+}

@@ -1,0 +1,149 @@
+.home-container {
+    height: 89.6%;
+    width: 40%;
+    background-color: #e6dace;
+}
+.row {
+    width: 45%;
+    height: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    display: inline-flex;
+}
+.col {
+    width: 100%;
+    height: 100%;
+}
+.row .col {
+    background-color: #f4ece6;
+}
+.col-bottom {
+    width: 48.5%;
+    height: 10%;
+    bottom: 0;
+    position: absolute;
+    background-color: white !important;
+}
+mat-nav-list.list-horizontal {
+    padding: 0;
+    .mat-list-item {
+        display: inline-block;
+        // height: auto;
+        width: auto;
+    }
+}
+mat-nav-list {
+    background-color: white !important;
+}
+.dontknow {
+    background-color: white !important;
+    margin-left: 28%;
+}
+.dot {
+    height: 30%;
+    width: 38%;
+    background-color: #bbb !important;
+    border-radius: 50%;
+    display: inline-block;
+    left: 30%;
+    top: 10%;
+    position: relative;
+}
+.home-name {
+    font-size: x-large;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 0;
+}
+.home-name-two {
+    text-align: center;
+    margin-top: 0;
+}
+.home-job {
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 100;
+    font-family: inherit;
+}
+.desc-welcome {
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.col-two {
+    padding-left: 3%;
+    background-color: white !important;
+}
+.desc-sub {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 0;
+}
+.actual-desc {
+    font-size: 18px;
+    padding-right: 15%;
+    line-height: 1.5em;
+}
+.box-sha {
+    box-shadow: 5px 10px 18px #888888;
+}
+.profile-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-container {
+        height: 100%;
+        width: 100%;
+
+        background-color: #e6dace;
+    }
+    .row {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+        height: 100%;
+        box-shadow: 5px 10px 18px #888888;
+    }
+    .col-two {
+        background-color: white !important;
+        top: -10%;
+        position: relative;
+        padding: 0%;
+    }
+    .col {
+        width: 100%;
+        height: 50%;
+    }
+    .desc-sub {
+        padding-left: 3%;
+    }
+    .actual-desc {
+        padding-left: 3%;
+    }
+    .desc-welcome {
+        padding-left: 3%;
+    }
+    .col-bottom {
+        width: 100%;
+        height: 0%;
+        bottom: 0;
+        top: 100%;
+        position: absolute;
+        background-color: white !important;
+    }
+    .dot{
+        width: 35%;
+        left: 32%;
+    }
+    .box-sha {
+        box-shadow: none;
+    }
+}
